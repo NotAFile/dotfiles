@@ -8,13 +8,14 @@
 
 general {
         colors = true
-        # color_good = "#00FF00"
-        # color_degraded = "#FFFF00"
-        # color_good = "#FF0000"
+        color_good = "#81FF2D"
+        color_degraded = "#ffe62d"
+        color_bad = "#FF312E"
         interval = 5
 }
 
 order += "disk /"
+order += "disk /home/"
 order += "run_watch DHCP"
 order += "wireless _first_"
 order += "ethernet _first_"
